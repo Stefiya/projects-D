@@ -1,0 +1,23 @@
+{% extends 'theme.html' %}
+{% block content %}
+<ul>
+{% for pro3 in pro2 %}
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{pro3.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{pro3.name}}</h5>
+
+      <h5 class="card-price">{{pro3.price}}</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  {% endfor %}
+  </ul>
+{% endblock %}
+
+<h2>products</h2>
+<!--<ul>
+    {% for pro3 in pro2 %}
+    <li>{{pro3.name}}</li>
+    {% endfor %}
+</ul>-->

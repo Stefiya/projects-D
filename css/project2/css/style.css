@@ -1,0 +1,133 @@
+*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	}
+.row{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+	}	
+.col-1{
+	width:8.33%;
+}
+.col-2{
+width:16.66%;
+}
+.col-3{
+width:24.99%;
+}
+.col-4{
+width:33.33%;
+}
+.col-5{
+width:41.66%;
+}
+.col-6{
+width:50%;
+}
+.col-7{
+width:58.33%;
+}
+.col-8{
+width:66.66%;
+}
+.col-9{
+width:75%;
+}
+.col-10{
+width:83.33%;
+}
+.banner{
+	background-image:url("../img/academy-banner.jpg");
+}
+.vh-100{
+height:100vh;
+}
+.text-right{
+	text-align:right;
+}
+.banner h1{
+	text-transform:uppercase;
+	font-size:45px;
+	font-weight:bolder;
+	}
+.mt-5{
+	margin-top:3rem;
+}
+.align-items-center{
+align-items:center;
+}
+.py-5{
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+.container{
+	max-width:1140px;
+	padding-right:15px;
+	padding-left:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.bg-black {
+	background-color:black;
+	
+}
+.bg-black p{
+	color:white;
+	padding:15px;
+}
+.features p::before{
+	content:'{';
+	color:red;
+	}
+.features p::after{
+content:'}';
+	color:red;
+	}
+.p-5{
+	padding:3rem;
+}
+.text-center{
+	text-align:center;
+}
+.justify-content-center{
+	justify-content:center;
+}
+.modulebg{
+	background-image:url("../img/modulebg.jpg");
+	color:white;
+}
+.p-2{
+	padding:20px;
+}
+.rounded{
+border-radius:20px;
+}
+.d-flex{
+	display:flex;
+}
+.interview{
+	background-image:url("../img/testsbg.jpg");
+}
+.interview1{
+	background-image:url("../img/intrvwbg.jpg");
+}
+.vh{
+height:400px;
+}
+.interview>div{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+}
+.interview1>div{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+}
+.btn{
+	border:1px solid red;
+	text-decoration:none;
+	padding:20px;
+	color:red;
+	border-radius:10px;
+}

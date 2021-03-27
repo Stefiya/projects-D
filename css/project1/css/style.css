@@ -1,0 +1,166 @@
+.img{
+	width:200px;
+	height:200px;
+	}
+	
+ .logo { 
+ text-align:right;
+ font-size:10px; 
+ text-align:right; 
+ color:#le2531; 
+ } 
+ 
+ .logo img { 
+ margin-right:30px; 
+ }
+ 
+ .logo h1 { 
+ margin-right:50px; 
+ font-family:arial;
+ } 
+ 
+ .img2 {
+	 width:200px;
+	 height:200px;
+	 position:absolute;
+	 margin-top:350px;
+	 }
+	 
+	 a { 
+	 color:red;
+	 }
+	 
+	 .para {
+		 position:absolute;
+		 margin-top:400px;
+		 margin-right:100px;
+		 margin-left:400px;
+		 font-size:20px;
+		 border:2px solid black;
+		 background-color:rgba(0,0,0,1); 
+		 color:#69cafa; 
+		 } 
+		 
+		 .para2 {
+		 position:absolute;
+		 margin-top:1000px;
+		 margin-right:100px; 
+		 margin-left:100px; 
+		 font-size:20px;
+		 }
+		 
+	.img3{
+		 width:100px;
+		 height:100px;
+		 position:absolute;
+		 margin-top:1300px;
+	}
+	
+	.php{
+		position:relative;
+		width:1000px;
+		height:500px;
+		left:120px;
+		border-radius:20px;
+		margin-top:1400px;
+		text-align:center;
+	}
+	
+	.p{
+		display:inline-flex;
+		width:15%;
+		height:10%;
+		text-align:center;
+		background-color:rgba(0,0,0,0.7);
+		border-radius:5px;
+		float:30px;
+		margin:30px;
+		color:#ffffff;
+		padding:5px;
+		margin-top:50px;
+		position:relative;
+		}
+		
+	.para3 {
+		 position:absolute;
+		 margin-top:200px;
+		 margin-right:100px; 
+		 margin-left:300px; 
+		 font-size:20px;
+		 text-align:center;
+		
+		 }
+		 
+	.img4 {
+		width:130px;
+		height:500px;
+		position:absolute;
+		margin-top:420px;
+		display:inline-flex;
+	 }
+	 
+	 .box{
+		width:25%;
+		height:25%;
+		text-align:center;
+		background-color:rgba(0,0,0,0.7);
+		border-radius:5px;
+		float:30px;
+		margin:30px;
+		color:#ffffff;
+		padding:10px;
+		margin-top:500px;
+		position:relative;
+		padding:130px;
+		}
+		
+	.box1{
+		width:25%;
+		height:25%;
+		text-align:center;
+		background-color:rgba(0,0,0,0.7);
+		border-radius:5px;
+		float:30px;
+		color:#ffffff;
+		padding:130px;
+		margin-top:-450px;
+		margin-left:750px;
+		position:relative;
+	}
+	
+	 .ready{
+		 margin-top:100px;
+		 text-align:center;
+	 }
+	 
+	 .join{
+		 border:1px solid #f26422;
+		 color: #f26422;
+		 text-align:center;
+		margin-left:400px;
+		margin-right:400px;
+		padding:-50px;
+		}
+	
+	 .ft{
+		
+		display:inline-flex;
+		height:100px;
+	    text-align:center;
+		
+		}
+		
+		.d{
+		width:300px;
+		height:400px;
+		float:right;
+		margin-left:250px;
+		margin-top:100px;
+		
+		}
+		
+			
+	 `
+		
+		 
+		 

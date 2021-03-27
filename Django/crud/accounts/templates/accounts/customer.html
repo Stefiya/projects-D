@@ -1,0 +1,35 @@
+{% extends 'accounts/main.html' %}
+
+{% block content %}
+ 
+
+<div class="container">
+    <table class="table table-bordered mt-5 text-center">
+        <thead class="">
+          <tr>
+           
+            <th scope="col">Name</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Email</th>
+            <th scope="col">date_create</th>
+           
+            
+          </tr>
+        </thead>
+        <tbody>
+           
+       
+    
+            <tr>
+                <td> {{customer.name}}</td>
+                <td> {{customer.email}}</td>
+                <td> {{customer.phone}}</td>
+                <td> {{customer.date_create}}</td>
+                
+            </tr>
+      
+    </tbody>
+      </table>
+    </div>
+    
+{% endblock %}

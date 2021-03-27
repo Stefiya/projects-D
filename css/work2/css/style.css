@@ -1,0 +1,92 @@
+/* nav start*/
+.bi{
+	
+	background-image:url("../img/back.jpg");
+	background-size:cover;
+	}
+	
+.menubar{
+	background-color:black;
+	text-align:center;
+}
+		
+.menubar ul{
+	list-style:none;
+	display:inline-flex;
+	}
+	
+.menubar ul li a{
+	color:white;
+	text-decoration:none;
+}
+		
+.submenu{
+	display:none;
+	}
+
+.menubar li{
+	padding:15px;
+	}
+	
+.menubar ul li:hover{
+	background-color:red;
+	border-radius:10px;
+	}
+	
+.menubar ul li:hover .submenu{
+	display:block;
+	position:absolute;
+	background-color:black;
+	margin-top:15px;
+	margin-left:-15px;
+	border-radius:15px;
+	padding:10px;
+	}
+	
+.menubar ul li:hover .submenu ul{
+	display:block;
+	margin-left:-30px;
+	}
+	
+.menubar ul li:hover .submenu ul li{
+	padding:20px;
+	border-bottom:1px solid red;
+	}
+	/* end */
+
+.row{
+	display:flex;
+	text-align:justify;
+	color:white;
+    }
+.col{
+	width:450px;
+	height:350px;
+	background-color:rgba(0,0,0,.4);
+	margin:20px;
+	padding:15px;
+	
+	}	
+.col h2{
+text-align:center;
+text-decoration:underline;
+}	
+
+.ft{
+text-align:center;
+background-color:black;
+color:white;
+padding:30px;
+}
+
+@media screen and (max-width:992px){
+.row{
+	display:block;}
+.col{
+	width:auto;}
+.row p{
+	font-size:30px;}
+}	
+
+
+		

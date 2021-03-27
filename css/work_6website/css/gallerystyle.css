@@ -1,0 +1,32 @@
+
+
+body{
+background-color:rgba(1,1,1,0.2);
+
+}
+
+.gal
+{
+text-align:center;
+
+
+}
+.gal img
+{
+width:300px;
+    height:150px;
+    margin:30px;
+    box-shadow:10px 10px 5px gray;
+    filter:grayscale(100%);
+transition:1s;
+
+
+
+}
+.gal img:hover
+{
+filter:grayscale(0%);
+transform:scale(1.2);
+cursor:pointer;
+}
+

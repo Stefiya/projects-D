@@ -1,0 +1,36 @@
+{% extends 'accounts/main.html' %}
+
+{% block content %}
+ 
+{% include 'accounts/status.html' %}
+<div class="container">
+<table class="table table-bordered mt-5 text-center">
+    <thead class="">
+      <tr>
+       
+        <th scope="col">Customer</th>
+        <th scope="col">Phonenumber</th>
+        <th scope="col">action</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+       
+    {% for pro2 in customer %}
+
+        <tr>
+            <td> {{pro2.name}}</td>
+            <td> {{pro2.phone}}</td>
+            <td><a href="{% url 'customer' pro2.id %}">view</a></td>
+        </tr>
+    {% endfor %}
+</tbody>
+  </table>
+</div>
+
+
+    {% endblock %}
+    
+   
+    
+    
